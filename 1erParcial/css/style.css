@@ -1,17 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root{
+    --font-buttons: "SN Pro", sans-serif;
+}
 body{
     box-sizing: border-box;
-    background-color: black;
+    margin: 0px;
+    font-family: "Roboto Slab", serif;
 }
 header{
+    height: 75px;
     display: flex;
     justify-content: space-between;
+    background-color: #001C1F;
+    padding: 0px 60px;
 }
 nav{
     display: flex;
     justify-content: space-around;
+    width: 850px;
+    
 }
 .navegacion{
     color:aliceblue;
-    background-color: black;
+    background-color: transparent;
     border: 0px;
+    font-family: var(--font-buttons);
+    font-size: medium;
+}
+img{
+    height: 75px;
+    width: 150px;
 }
