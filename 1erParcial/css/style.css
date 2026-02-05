@@ -32,3 +32,7 @@ img{
     height: 75px;
     width: 150px;
 }
+#heroSection{
+    height: 500px;
+    background-image: url("../imgs/fondoHero.webp");
+}
