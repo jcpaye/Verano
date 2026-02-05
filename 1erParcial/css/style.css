@@ -19,7 +19,7 @@ nav{
     display: flex;
     justify-content: space-around;
     width: 850px;
-    
+    align-items: center;
 }
 .navegacion{
     color:aliceblue;
@@ -27,10 +27,24 @@ nav{
     border: 0px;
     font-family: var(--font-buttons);
     font-size: medium;
+    height: 60%;
 }
 img{
     height: 75px;
     width: 150px;
+}
+#letsTalk{
+    border:2px solid #008F8F;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#letsTalk:hover{
+    background-color: #008F8F;
+    cursor: pointer;
+}
+.navegacion:not(#letsTalk):hover{
+    height: 35%;
+    border-bottom: 2px solid #008F8F;
 }
 #heroSection{
     height: 500px;
