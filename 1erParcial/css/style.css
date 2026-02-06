@@ -53,10 +53,13 @@ img{
     height: 35%;
     border-bottom: 2px solid #008F8F;
 }
+
+/* Hero Section */
+
 #heroSection{
     height: 630px;
-    background-image: url("../imgs/fondoHero.webp");
-    background-size: cover;
+     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                    url('../imgs/fondoHero.webp') center/cover;
     display: flex;
     padding-bottom: 10%;
     align-items: flex-end;
@@ -81,10 +84,45 @@ img{
 #experience{
     margin-left: 10%;
     font-size: 25px;
+    color: #62BFBD;
 }
 #right-artc{
     font-family: var(--font-generic);
     font-size: 25px;
     width: 40%;
     color: #ffffff;
+    display:flex;
+    flex-direction: column;
+}
+#we{
+    padding: 10px;
+}
+#number{
+    display:flex;
+    align-items: center;
+}
+#getButton{
+    height: 55px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0px;
+    font-family: var(--font-generic);
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #00B3B0;
+    text-align: center;
+}
+#getButton:hover{
+    background-color: #008F8F;
+    cursor: pointer;
+}
+#text-number{
+    margin-left: 50px;
+    border-left: 2px solid #00696B;
+    padding-left: 10px;
+}
+#quest{
+    color:#37A7A5;
+    font-size: medium;
 }
