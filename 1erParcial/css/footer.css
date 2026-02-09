@@ -101,6 +101,10 @@ footer{
     padding-left: 0px;
     margin-top: 15px;
 }
+.boton-f:hover{
+    color: #4091A7;
+    cursor: pointer;
+}
 .mission, .servicios-f, .info-f, .contacto{
     padding-right: 20px;
     border-right: 1px solid #00494D;
