@@ -11,6 +11,7 @@ footer{
     background-size: cover;
     background-position: center;
     padding: 45px 60px;
+    padding-bottom: 0px;
 }
 .seccionN1{
     height: 40%;
@@ -81,13 +82,59 @@ footer{
 }
 .servicios-f{
     grid-column: 2;
+
 }
 .info-f{
     grid-column: 3;
 }
+.f{
+    display: flex;
+    flex-direction: column;
+    padding-left: 17px;
+}
+.boton-f{
+    background-color: transparent;
+    border: 0px;
+    color: #fff;
+    font-family: "Instrument Sans", sans-serif;
+    width: 1%;
+    padding-left: 0px;
+    margin-top: 15px;
+}
+.mission, .servicios-f, .info-f, .contacto{
+    padding-right: 20px;
+    border-right: 1px solid #00494D;
+}
 .contacto{
     grid-column: 4;
+    border-right: 0px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.contacto-number{
+    color: #fff;
+    font-size: 25px;
+}
+.fecha{
+    font-size: 12px;
+    margin-bottom: 17px;
+}
+.getin{
+    margin-bottom: 20px;
 }
 .seccionN3{
     height: 20%;
+    color: #4091A7;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+.power{
+    background-color: transparent;
+    border: 0px;
+    color: #4091A7;
+    font-family: "Instrument Sans", sans-serif;
 }
