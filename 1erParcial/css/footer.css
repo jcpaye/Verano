@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+footer{
+    font-family: "Instrument Sans", sans-serif;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #051b24;
+    background: linear-gradient(to bottom,rgba(5, 27, 36, 0.21) 0%, rgba(0, 28, 31, 1) 39%, rgba(54, 51, 48, 0.99) 100%), url('../imgs/25-07.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 45px 60px;
+}
+.seccionN1{
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-bottom: 15em;
+}
+.izq{
+    display: flex;
+    flex-direction: column;
+}
+.der{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: flex-end;
+    color: #fff;
+}
+.get-b{
+    height: 50px;
+    border: 0px;
+    color: #fff;
+    background-color: #00B3B0;
+    font-family: "Instrument", sans-serif;
+    font-size: 17px;
+    font-weight:550;
+}
+.wheter{
+    line-height: 1.5;
+    margin-bottom: 0px;
+}
+.request{
+    font-size: 20px;
+    color: #70D6D3;
+}
+.discuss{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 500;
+    margin: 0px;
+    margin-top: 20px;
+}
+.seccionN2{
+    height: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    color: #7AC4D7;
+}
+.icono-f{
+    width: 80%;
+    margin: 0px;
+}
+.our{
+    line-height: 1.8;
+}
+.iconos-f{
+    display: flex;
+    padding-left: 0px; 
+}
+.icono{
+    width: 30%;
+    margin-left: 0px;
+}
+.mission{
+    grid-column: 1;
+}
+.servicios-f{
+    grid-column: 2;
+}
+.info-f{
+    grid-column: 3;
+}
+.contacto{
+    grid-column: 4;
+}
+.seccionN3{
+    height: 20%;
+}
