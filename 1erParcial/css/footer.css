@@ -145,3 +145,7 @@ footer{
     color: #4091A7;
     font-family: "Instrument Sans", sans-serif;
 }
+.power:hover{
+    color: #fff;
+    cursor: pointer;
+}
